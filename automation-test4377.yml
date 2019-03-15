@@ -1,0 +1,11 @@
+commonfields:
+  id: 29a7f1d9-f1a7-423b-88e9-eac3901b0c3b
+  version: 3
+name: test4377
+script: '#abc'
+type: python
+tags: []
+enabled: true
+scripttarget: 0
+runonce: false
+runas: DBotWeakRole
