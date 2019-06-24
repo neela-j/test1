@@ -1,0 +1,350 @@
+{
+	"id": "17f596e5-9d03-4f2a-889e-3657b0019a82",
+	"version": 1,
+	"modified": "2019-06-24T22:53:12.756727937Z",
+	"commitMessage": "",
+	"shouldPublish": true,
+	"shouldCommit": true,
+	"shouldPush": true,
+	"startDate": "0001-01-01T00:00:00Z",
+	"times": 0,
+	"recurrent": false,
+	"endingDate": "0001-01-01T00:00:00Z",
+	"timezoneOffset": 0,
+	"cronView": false,
+	"scheduled": false,
+	"name": "test66 report",
+	"prevName": "test66 report",
+	"type": "pdf",
+	"prevType": "pdf",
+	"system": false,
+	"locked": false,
+	"sections": [
+		{
+			"type": "chart",
+			"data": null,
+			"layout": {
+				"chartProperties": {
+					"format": "DD MMM Y",
+					"isDatesChart": true,
+					"layout": "vertical",
+					"margin": {
+						"bottom": 0,
+						"left": -20,
+						"right": 0,
+						"top": 5
+					},
+					"timeFrame": "days"
+				},
+				"chartType": "line",
+				"columnPos": 0,
+				"dimensions": {
+					"height": 300,
+					"width": 277
+				},
+				"h": 3,
+				"i": "c9cfd410-96d2-11e9-8fc1-5f2063b71e69",
+				"legendStyle": {
+					"align": "center",
+					"iconSize": 8,
+					"iconType": "square",
+					"verticalAlign": "top",
+					"width": 277,
+					"wrapperStyle": {
+						"maxHeight": 96
+					}
+				},
+				"rowPos": null,
+				"w": 5
+			},
+			"query": {
+				"type": "incident",
+				"groupBy": [
+					"occurred(d)",
+					"type"
+				],
+				"filter": {
+					"query": "-category:job and -status:archived and -status:closed",
+					"period": {
+						"byFrom": "days",
+						"fromValue": 7,
+						"by": "day"
+					},
+					"fromDate": null,
+					"toDate": null
+				}
+			},
+			"automation": {
+				"name": "",
+				"id": "",
+				"args": null,
+				"noEvent": false
+			},
+			"title": "Active Incidents by Type"
+		}
+	],
+	"recipients": null,
+	"orientation": "portrait",
+	"paperSize": "A4",
+	"runOnce": false,
+	"latestReportName": "",
+	"latestReportTime": "0001-01-01T00:00:00Z",
+	"latestScheduledReportTime": "0001-01-01T00:00:00Z",
+	"nextScheduledTime": "0001-01-01T00:00:00Z",
+	"latestReportUsername": "",
+	"decoder": {
+		"evidences.fetched": {
+			"type": "date",
+			"value": "02/01/06 3:04:05 PM"
+		},
+		"evidences.markedDate": {
+			"type": "date",
+			"value": "02/01/06 3:04:05 PM"
+		},
+		"evidences.occurred": {
+			"type": "date",
+			"value": "02/01/06 3:04:05 PM"
+		},
+		"incident.activated": {
+			"type": "date",
+			"value": "Mon, 02 Jan 2006 15:04:05 MST"
+		},
+		"incident.closed": {
+			"type": "date",
+			"value": "Mon, 02 Jan 2006 15:04:05 MST"
+		},
+		"incident.created": {
+			"type": "date",
+			"value": "Mon, 02 Jan 2006 15:04:05 MST"
+		},
+		"incident.dbotStatus.0": {
+			"type": "string",
+			"value": "Not Assigned"
+		},
+		"incident.dbotStatus.1": {
+			"type": "string",
+			"value": "Assigned"
+		},
+		"incident.dbotStatus.2": {
+			"type": "string",
+			"value": "Done"
+		},
+		"incident.dbotStatus.3": {
+			"type": "string",
+			"value": "Closed"
+		},
+		"incident.dbotStatus.4": {
+			"type": "string",
+			"value": "On Hold"
+		},
+		"incident.dueDate": {
+			"type": "date",
+			"value": "Mon, 02 Jan 2006 15:04:05 MST"
+		},
+		"incident.modified": {
+			"type": "date",
+			"value": "Mon, 02 Jan 2006 15:04:05 MST"
+		},
+		"incident.occurred": {
+			"type": "date",
+			"value": "02 Jan 2006"
+		},
+		"incident.openDuration": {
+			"type": "duration",
+			"value": ""
+		},
+		"incident.phase.": {
+			"type": "string",
+			"value": "Unassigned"
+		},
+		"incident.reminder": {
+			"type": "date",
+			"value": "Mon, 02 Jan 2006 15:04:05 MST"
+		},
+		"incident.roles.": {
+			"type": "string",
+			"value": "Unassigned"
+		},
+		"incident.severity.0": {
+			"type": "string",
+			"value": "Unknown"
+		},
+		"incident.severity.0.5": {
+			"type": "string",
+			"value": "Informational"
+		},
+		"incident.severity.1": {
+			"type": "string",
+			"value": "Low"
+		},
+		"incident.severity.2": {
+			"type": "string",
+			"value": "Medium"
+		},
+		"incident.severity.3": {
+			"type": "string",
+			"value": "High"
+		},
+		"incident.severity.4": {
+			"type": "string",
+			"value": "Critical"
+		},
+		"incident.status.0": {
+			"type": "string",
+			"value": "Not Assigned"
+		},
+		"incident.status.1": {
+			"type": "string",
+			"value": "Assigned"
+		},
+		"incident.status.2": {
+			"type": "string",
+			"value": "Done"
+		},
+		"incident.status.3": {
+			"type": "string",
+			"value": "Closed"
+		},
+		"incident.status.4": {
+			"type": "string",
+			"value": "On Hold"
+		},
+		"incident.totalTime": {
+			"type": "date",
+			"value": "Mon, 02 Jan 2006 15:04:05 MST"
+		},
+		"indicators.firstSeen": {
+			"type": "date",
+			"value": "Mon, 02 Jan 2006 15:04:05 MST"
+		},
+		"indicators.lastSeen": {
+			"type": "date",
+			"value": "Mon, 02 Jan 2006 15:04:05 MST"
+		},
+		"indicators.score.0": {
+			"type": "string",
+			"value": "None"
+		},
+		"indicators.score.1": {
+			"type": "string",
+			"value": "Good"
+		},
+		"indicators.score.2": {
+			"type": "string",
+			"value": "suspicious"
+		},
+		"indicators.score.3": {
+			"type": "string",
+			"value": "Bad"
+		},
+		"investigation.closed": {
+			"type": "date",
+			"value": "02 Jan 2006"
+		},
+		"investigation.created": {
+			"type": "date",
+			"value": "Mon, 02 Jan 2006 15:04:05 MST"
+		},
+		"investigation.openDuration": {
+			"type": "duration",
+			"value": ""
+		},
+		"investigation.status.0": {
+			"type": "string",
+			"value": "Active"
+		},
+		"investigation.status.1": {
+			"type": "string",
+			"value": "Done"
+		},
+		"investigation.type.0": {
+			"type": "string",
+			"value": "Standard"
+		},
+		"investigation.type.1": {
+			"type": "string",
+			"value": "Restricted"
+		},
+		"investigation.type.9": {
+			"type": "string",
+			"value": "Playground"
+		}
+	},
+	"reportType": "",
+	"sensitive": false,
+	"runningUser": "",
+	"userAPIKeyID": "",
+	"userAPIKey": "",
+	"disableHeader": false,
+	"dashboard": {
+		"id": "",
+		"version": 0,
+		"modified": "0001-01-01T00:00:00Z",
+		"commitMessage": "",
+		"shouldPublish": false,
+		"shouldCommit": false,
+		"shouldPush": false,
+		"fromDate": "0001-01-01T00:00:00Z",
+		"toDate": "0001-01-01T00:00:00Z",
+		"period": {
+			"byTo": "",
+			"byFrom": "days",
+			"toValue": null,
+			"fromValue": 7,
+			"field": ""
+		},
+		"fromDateLicense": "0001-01-01T00:00:00Z",
+		"name": "test66 report",
+		"prevName": "",
+		"layout": [
+			{
+				"id": "c9cfd410-96d2-11e9-8fc1-5f2063b71e69",
+				"forceRange": false,
+				"x": 0,
+				"y": 0,
+				"i": "c9cfd410-96d2-11e9-8fc1-5f2063b71e69",
+				"w": 5,
+				"h": 3,
+				"widget": {
+					"id": "active-incidents-by-type",
+					"version": 4,
+					"modified": "2019-03-15T17:33:38.65486637Z",
+					"commitMessage": "",
+					"shouldPublish": false,
+					"shouldCommit": false,
+					"shouldPush": false,
+					"name": "Active Incidents by Type",
+					"prevName": "Active Incidents by Type",
+					"dataType": "incidents",
+					"widgetType": "line",
+					"query": "-category:job and -status:archived and -status:closed",
+					"sort": null,
+					"isPredefined": true,
+					"dateRange": {
+						"fromDate": "0001-01-01T00:00:00Z",
+						"toDate": "0001-01-01T00:00:00Z",
+						"period": {
+							"byTo": "",
+							"byFrom": "days",
+							"toValue": null,
+							"fromValue": 7,
+							"field": ""
+						},
+						"fromDateLicense": "0001-01-01T00:00:00Z"
+					},
+					"params": {
+						"groupBy": [
+							"occurred(d)",
+							"type"
+						]
+					},
+					"size": 0,
+					"category": ""
+				}
+			}
+		],
+		"isPredefined": false,
+		"shared": false,
+		"owner": ""
+	}
+}
